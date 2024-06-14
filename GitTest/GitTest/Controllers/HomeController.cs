@@ -12,7 +12,10 @@ namespace GitTest.Controllers
         {
             _logger = logger;
         }
-
+        public IActionResult Testmethod()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();
