@@ -1,0 +1,41 @@
+GitHub work
+
+1. Create a Repo in GitHub.
+2.Create a Branch in GitHub.
+3.Go inside the Branch.
+
+Local System One time Setup
+1.Download git from internet.
+2.Install it
+
+
+Local System
+
+1.Create a folder in any drive except C name anything to your folder
+2.Inside this created folder create a folder with exact name as like as repo
+3.Navidate inside the folder and write cmd and click enter  or you can manually go with commands
+4. First Command   git init (this will initialize a local repo in local machine)
+5.Git clone "Paste the Url" that you have copied from branch (firstly select your branch in dropdownlist)
+6.Now check the new folder that has been created into the local system and navigate inside this folder into cmd
+7.Add or update any files
+7.git status
+8.git add .   (dot will add all the file if you want to add any specific file then use git add "filename")
+9.git commit -m "meaning full message"
+10.git push 
+
+
+if you want to check out new changes from other team members then you need to fire below command
+
+11. git pull or git fetch
+
+===========================================================================================
+git init (only one a project)
+
+git clone "paste url"
+git status
+git add .
+git commit -m "Jira ID"
+git push 
+
+
+
